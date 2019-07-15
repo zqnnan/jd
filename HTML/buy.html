@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/./buy.css">
+    <link rel="stylesheet" href="../CSS/./main.css">
+    <link rel="stylesheet" href="../CSS/./common.css">
+    <link rel="stylesheet" href="../swiper-4.5.0/./dist/./css/./swiper.min.css">
+</head>
+
+<body>
+    <!-- 整体盒子 -->
+    <div class="container">
+        <!-- 开头白条-->
+        <div id="m_common_header" style="display: block; height: 0.44rem; overflow: hidden;">
+            <header class="jd-header ">
+                <div class="jd-header-new-bar">
+                    <div class="jd-header-icon-back">
+                        <span></span>
+                    </div>
+                    <div class="jd-header-new-title">京东拼购</div>
+                    <div class="jd-header-icon-new-shortcut">
+                        <span></span>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- 搜索框 -->
+        <div class="search_block">
+            <div class="search_bar_container" style="display: block;">
+                <div class="mod_searchbar">
+                    <div class="mod_searchbar_inner">
+                        <form class="mod_searchbar_form" onsubmit="return false;" action="#">
+                            <i class="mod_searchbar_jd"></i>
+                            <input type="search" id="mohu" class="mod_searchbar_text" placeholder="大家都在搜 四件套" autocomplete="off">
+                        </form>
+                        <span class="mod_searchbar_btn bg_1 sear" style="display: none;">搜索</span>
+                        <span class="mod_searchbar_btn bg_1 quxiao" style="display: none;">取消</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 点击之后的search -->
+        <div class="smartboxBlock">
+            <div class="search_panel_wrapper">
+                <div class="search_panel_title">
+                    <div class="text">最近搜索</div>
+                    <div class="title_btn">清除</div>
+                </div>
+                <div class="search_panel_con two_row">
+                    <ul class="tags">
+                        <li class="keyword">
+                            <a href="javascript:;">行车</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search_panel_title">
+                    <div class="text">热门搜索</div>
+                    <div class="title_btn">换一批</div>
+                </div>
+                <div class="search_panel_con">
+                    <ul class="tags huan">
+                        <li class="keyword">
+                            <a href="javascript:;">行车记录仪</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">护膝</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">鱼竿</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">太阳镜</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">冰箱</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">玻璃杯</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">茶具套装</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">四件套</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">抽纸</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">女士手表</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">车载手机支架</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">玻璃杯</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">茶具套装</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">茶杯</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">保温壶</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">炒锅</a>
+                        </li>
+                        <li class="keyword">
+                            <a href="javascript:;">红酒</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="wx_wrap">
+            <div class="taro_router" style="min-height: 100%">
+                <div class="taro_page" style="min-height: 100%">
+                    <div class="index">
+                        <!-- 导航 -->
+                        <div class="tab-nav">
+                            <div class="tab-nav__main head_nav_class">
+                                <div class="tab-nav__bg">
+                                    <div class="taro-img tab-nav__bg-img">
+                                        <img class="taro-img__mode-scaletofill"
+                                            src="../IMG/./buyimg/./e8d7fe69b08a99342050880332e94b63_b628427b8d2b757b.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                                <div class="tab-nav__ctn">
+                                    <div class="tab-nav__item tab-nav__item--on">
+                                        <span class="taro-text">精选</span>
+                                    </div>
+                                    <div class="tab-nav__scroll-list">
+                                        <div class="taro-scroll tab-nav__scroll-view">
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">手机</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">服饰</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">日用</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">居家</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">内衣</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">美妆</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">食品</span>
+                                            </div>
+
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">母婴</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">鞋包</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">家电</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">生鲜</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">配饰</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">文娱</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">鞋包</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">数码</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">家装</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">汽车</span>
+                                            </div>
+                                            <div class="tab-nav__item">
+                                                <span class="taro-text">家具</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 精选以外选框的顶层 -->
+                        <div class="tab-nav__sub">
+                            <!-- 放模板 -->
+                        </div>
+                        <!-- 手机顶层模板 -->
+                        <div id="model2" style="display: none">
+                            <div class="tab-nav__sub-item" articleId="articleId">
+                                <div class="taro-img tab-nav__sub-img">
+                                    <img class="taro-img__mode-scaletofill" src="../IMG/buyimg/./mobile1.png" alt="">
+                                </div>
+                                <div class="taro-text tab-nav__sub-name">$手机$</div>
+                            </div>
+                        </div>
+                        <!-- 精选 -->
+                        <div class="main-container featured-wrapper" style="display: block">
+                            <div class="heading-image"></div>
+                            <!-- banner图 -->
+                            <div class="banner">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="../IMG/buyimg/./banner1.jpg" width="100%" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../IMG/buyimg/./banner2.jpg" width="100%" />
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="../IMG/buyimg/./banner3.jpg" width="100%" />
+                                        </div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <!-- 图标列表 -->
+                            <div class="icon-nav">
+                                <div class="icon-nav__list">
+                                    <div class="icon-nav__list-item">
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdbf3bdN9dece84f.png!q70.webp" alt="">
+                                                </div>
+                                                <div class="icon-nav__info-detail-stamp">降</div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">9.9包邮</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdbf0a4Nf4e6c02a.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">一元福利</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdbf08dN84d7b85a.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">名品清仓</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./031aefd9f07ecc42.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">厂直优品</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdbf425N080eebd4.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">自营优选</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5ce5473aNe14671a2.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">养狗领京豆</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdc0054Na439e34a.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">1元领礼盒</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdbf0b6N0231bc6f.gif" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">砍至1元</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./4a1366d08b336a31.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">全民攒京豆</span>
+                                        </div>
+                                        <div class="icon-nav__info">
+                                            <div class="icon-nav__info-detail">
+                                                <div class="taro-img icon-nav__info-detail-img">
+                                                    <img class="taro-img__mode-aspectfill"
+                                                        src="../IMG/buyimg/./5cdbd1f9Nadbcff40.png!q70.webp" alt="">
+                                                </div>
+                                            </div>
+                                            <span class="taro-text icon-nav__info-detail-name">百人团</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 必拼 -->
+                            <div class="bipin">
+                                <div class="bipin__head">
+                                    <div class="bipin__head-title">
+                                        今日
+                                        <span class="taro-text strong">必拼</span>
+                                    </div>
+                                    <div class="bipin__head-countdown">
+                                        <div class="desc">10点场</div>
+                                        <div class="time">已结束</div>
+                                    </div>
+                                    <div class="bipin__head-more">
+                                        更多
+                                        <div class="arrow"></div>
+                                    </div>
+                                </div>
+                                <!-- 轮播 -->
+                                <div class="bipin__swiper">
+                                    <div class="swiper-container">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide slide0">
+                                                <!-- 存放模板 -->
+                                            </div>
+                                            <div class="swiper-slide" id="slide1">
+                                                <!-- 存放模板 -->
+                                            </div>
+                                            <div class="swiper-slide" id="slide2">
+                                                <!-- 存放模板 -->
+                                            </div>
+                                            <div class="swiper-slide" id="slide3">
+                                                <!-- 存放模板 -->
+                                            </div>
+                                            <div class="swiper-slide slide4" id="">
+                                                <!-- 存放模板 -->
+                                            </div>
+                                        </div>
+                                        <!-- Add Pagination -->
+                                        <div class="swiper-pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 模板 -->
+                            <div id="model" style="display: none">
+                                <div class="bipin__swiper-item-detail" articleId="articleId">
+                                    <div class="bipin__swiper-item-detail-imagecover">
+                                        <div class="taro-img image">
+                                            <img class="taro-img__mode-scaletofill" src="../IMG/buyimg/./pin1.dpg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="bipin__swiper-item-detail-info">
+                                        <div class="bipin__swiper-item-detail-price">
+                                            $2人拼$
+                                            <span class="taro-text priceinfo">
+                                                $￥$
+                                                <span class="taro-text int">$7$</span>$.80$
+                                            </span>
+                                        </div>
+                                        <div class="bipin__swiper-item-detail-count">$已有608人拼$</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 大家都在拼 -->
+                            <div class="pin-like">
+                                <div class="pin-like__tit">
+                                    <div class="pin-like__tit-logo">
+                                    </div>
+                                    大家都在拼
+                                </div>
+                                <!-- 数据列表 -->
+                                <div class="pin-like__list">
+                                    <!-- 存放模板 -->
+
+                                </div>
+                                <!-- 模板 -->
+                                <div id="model1" style="display: none;">
+                                    <div class="pin-like__item" articleId="articleId">
+                                        <div class="pin-like__goods">
+                                            <div class="pin-like__goods_wrapper">
+                                                <div class="pin-like__goods-img">
+                                                    <div class="taro-img">
+                                                        <img class="taro-img__mode-scaletofill"
+                                                            src="../IMG/buyimg/./jing1.jpg">
+                                                    </div>
+                                                </div>
+                                                <div class="pin-like__goods-info">
+                                                    <div class="pin-like__goods-name">$车载手机支架$</div>
+                                                    <div class="pin-like__goods-row">
+                                                        <div class="pin-like__goods-need">$2人拼$</div>
+                                                        <div class="pin-like__goods-price">$¥$<span
+                                                                class="taro-text pin-like__goods-price-int">$1$</span><span
+                                                                class="taro-text">$.9$</span></div>
+                                                    </div>
+                                                    <div class="pin-like__goods-count">$已拼1.5万件$</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 除精选以外 -->
+                        <div class="main-container category-wrapper" style="display: none">
+                            <div class="category-list">
+                                <div class="category-list__wrapper">
+                                    <!-- 放模板 -->
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- 侧边栏 -->
+                        <!-- 一元 -->
+                        <div class="floating">
+                            <div class="floating__close"></div>
+                            <div class="taro-img floating__image">
+                                <img class="taro-img__mode-scaletofill" src="../IMG/buyimg/./1元.gif" alt="">
+                            </div>
+                        </div>
+                        <!-- 快速导航 -->
+                        <div class="quick-nav">
+                            <div class="quick-nav__toggle ">
+                                <div class="quick-nav__toggle-arrow"></div>
+                                <span class="taro-text quick-nav__toggle-text">快速导航</span>
+                            </div>
+                            <div class="quick-nav__list">
+                                <div class="quick-nav__item">
+                                    <div class="taro-img quick-nav__icon">
+                                        <img class="taro-img__mode-scaletofill" src="../IMG/buyimg/./side1.png" alt="">
+                                    </div>
+                                    <span class="taro-text quick-nav__name">首页</span>
+                                </div>
+                                <div class="quick-nav__item">
+                                    <div class="taro-img quick-nav__icon">
+                                        <img class="taro-img__mode-scaletofill" src="../IMG/buyimg/./side2.png" alt="">
+                                    </div>
+                                    <span class="taro-text quick-nav__name">分类</span>
+                                </div>
+                                <div class="quick-nav__item">
+                                    <div class="taro-img quick-nav__icon">
+                                        <img class="taro-img__mode-scaletofill" src="../IMG/buyimg/./side3.png" alt="">
+                                    </div>
+                                    <span class="taro-text quick-nav__name">购物车</span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- 返回顶部 -->
+                        <div class="index__back-top"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部内容 -->
+        <div class="ping_footnav">
+            <div class="ping_footnav_item cur">
+                <img class="ping_footnav_item_cover" src="../IMG/buyimg/./footer1ho.png" alt="">
+                <img class="ping_footnav_item_cur" src="../IMG/buyimg/footerbo1.png" alt="" ;>
+                <div class="ping_footnav_item_name">拼购首页</div>
+            </div>
+            <div class="ping_footnav_item">
+                <img class="ping_footnav_item_cover" src="../IMG/buyimg/./footerho2.png" alt="">
+                <img class="ping_footnav_item_cur" src="../IMG/buyimg/footerbo2.png" alt="" ;>
+                <div class="ping_footnav_item_name">找东西</div>
+            </div>
+            <div class="ping_footnav_item">
+                <img class="ping_footnav_item_cover" src="../IMG/buyimg/footerho3.png" alt="">
+                <img class="ping_footnav_item_cur" src="../IMG/buyimg/footerbo3.png" alt="" ;>
+                <div class="ping_footnav_item_name">领福利</div>
+            </div>
+            <div class="ping_footnav_item">
+                <img class="ping_footnav_item_cover" src="../IMG/buyimg/footerho4.png" alt="">
+                <img class="ping_footnav_item_cur" src="../IMG/buyimg/footerbo4.png" alt="" ;>
+                <div class="ping_footnav_item_name">我的</div>
+            </div>
+        </div>
+        <!-- 三点弹框 -->
+        <div class="header-shortcut-ul" style="display: none";>
+            <ul class="m_common_header_shortcut">
+                <li>
+                    <a href="javascript:;">
+                        <span
+                            style="background: url(../IMG/buyimg/indexicon1.png) no-repeat center center;background-size: 0.15rem;"></span>
+                        <strong>首页</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span
+                            style="background: url(../IMG/buyimg/indexicon2.png) no-repeat center center;background-size: 0.15rem;"></span>
+                        <strong>分类搜索</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span
+                            style="background: url(../IMG/buyimg/indexicon3.png) no-repeat center center;background-size: 0.15rem;"></span>
+                        <strong>购物车</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span
+                            style="background: url(../IMG/buyimg/indexicon4.png) no-repeat center center;background-size: 0.15rem;"></span>
+                        <strong>我的京东</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <span
+                            style="background: url(../IMG/buyimg/indexicon5.png) no-repeat center center;background-size: 0.15rem;"></span>
+                        <strong>浏览记录</strong>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="../JS/./jquery-3.2.1.min.js"></script>
+<script src="../JS/./cookie.js"></script>
+<script src="../JS/./jquery.autocompleter.js"></script>
+<script src="../JS/./buy.js"></script>
+<script src="../JS/./rem(1).js"></script>
+
+<script src="../JS/./pingouDate.js"></script>
+<script src="../JS/./jingxuan.js"></script>
+<script src="../JS/./chujingxuanD.js"></script>
+<script src="../JS/./chujingxuan.js"></script>
+<script src="../swiper-4.5.0/./dist/./js/./swiper.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.banner .swiper-container', {
+        effect: 'silde',
+        autoplay: true,
+        loop: true,
+        observer: true,
+        observeParents: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    var swiper1 = new Swiper('.bipin__swiper .swiper-container', {
+        effect: 'silde',
+        autoplay: true,
+        loop: true,
+        // observer:true,
+        // observeParents:true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
+
+</html>
